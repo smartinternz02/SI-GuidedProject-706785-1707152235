@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_Search_DDT_Excel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aceedb12-0594-42b4-b00e-d9e463b8c023</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2f878ba7-3f9f-4eac-97d5-4a4cdff5b9d2</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Amazon_Test Data/Amzon_Test Data_Excel_Category</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>2f878ba7-3f9f-4eac-97d5-4a4cdff5b9d2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>CategoryItem</value>
+      <variableId>35d353b6-c776-412a-8461-70d7cc11069a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2f878ba7-3f9f-4eac-97d5-4a4cdff5b9d2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Items</value>
+      <variableId>3e8534fa-b2ab-44bb-92d2-3a7d2db10482</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>35d353b6-c776-412a-8461-70d7cc11069a</id>
+      <masked>false</masked>
+      <name>CategoryItem</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e8534fa-b2ab-44bb-92d2-3a7d2db10482</id>
+      <masked>false</masked>
+      <name>Items</name>
+   </variable>
+</TestCaseEntity>
